@@ -19,7 +19,7 @@ public class CellScript : MonoBehaviour
     {
         if (isWall == true)
         {
-            weight = 0;
+            weight = 101;
             this.GetComponent<MeshRenderer>().enabled = true;
             this.GetComponent<BoxCollider>().enabled = true;
             this.GetComponentInChildren<TMP_Text>().enabled = false;
